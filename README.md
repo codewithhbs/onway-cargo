@@ -22,7 +22,7 @@ npm start         # http://localhost:5000 par chalega
 ```
 
 - **Admin Panel:** http://localhost:5000/admin
-- **Default login:** `admin` / `admin123`  (production me badal lena — niche dekho)
+
 - **API base:** http://localhost:5000/api
 - **Health check:** http://localhost:5000/api/health
 
@@ -34,8 +34,7 @@ nahi — kahin bhi bina headache ke chalega). Reset karna ho to file delete kark
 ```
 PORT=5000
 JWT_SECRET=...            # production me strong random value daalo
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=admin123   # pehle seed ke time use hota hai
+
 FRONTEND_ORIGIN=http://localhost:3000   # CORS (frontend ka URL)
 PUBLIC_BASE_URL=http://localhost:5000   # uploaded image URLs ke liye
 ```
