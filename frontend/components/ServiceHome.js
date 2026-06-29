@@ -17,6 +17,12 @@ const services = [
     content: 'Ocean freight is one of the most cost-effective shipping solutions, offering secure and efficient transportation for global cargo movement.',
   },
   {
+    icon: 'flaticon-box',
+    title: 'Custom Clearance',
+    href: '/custom-clearance',
+    content: 'Our specialists handle hassle-free import and export custom clearance with expert documentation, regulatory compliance, and timely processing.',
+  },
+  {
     icon: 'flaticon-frontal-truck',
     title: 'Road Transportation',
     href: '/transportation',

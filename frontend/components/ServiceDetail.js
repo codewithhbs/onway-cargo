@@ -43,7 +43,7 @@ export default function ServiceDetail({ data }) {
         </div>
       </section>
 
-      <section className="services__3 grey-bg-4 pt-100 pb-70 wow fadeInUp">
+      <section className="sp-services grey-bg-4 pt-100 pb-70 wow fadeInUp">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8">
@@ -56,14 +56,11 @@ export default function ServiceDetail({ data }) {
           <div className="row">
             {data.services.map((s, i) => (
               <div className="col-xl-4 col-md-6" key={i}>
-                <div className="services__3-item mb-30">
-                  <div className="services__3-item-num">
-                    <h3>{String(i + 1).padStart(2, '0')}</h3>
-                  </div>
-                  <div className="services__3-item-icon">
-                    <i className="fal fa-check-circle"></i>
-                  </div>
-                  <h3 className="services__3-item-title">{s}</h3>
+                <div className="sp-card">
+                  <span className="sp-num">{String(i + 1).padStart(2, '0')}</span>
+                  <div className="sp-ic"><i className="fal fa-check"></i></div>
+                  <h4 className="sp-title">{s}</h4>
+                  <span className="sp-bar" />
                 </div>
               </div>
             ))}
@@ -84,6 +81,65 @@ export default function ServiceDetail({ data }) {
           </div>
         </div>
       </section>
+
+      <style>{`
+        .sp-card{
+          position:relative;
+          display:flex;
+          align-items:center;
+          gap:16px;
+          background:#fff;
+          border:1px solid #ececf1;
+          border-radius:14px;
+          padding:24px 24px;
+          margin-bottom:30px;
+          overflow:hidden;
+          transition:transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+          z-index:1;
+        }
+        .sp-card:hover{
+          transform:translateY(-6px);
+          box-shadow:0 18px 40px rgba(227,35,42,.14);
+          border-color:transparent;
+        }
+        .sp-card .sp-bar{
+          position:absolute;
+          left:0; top:0;
+          width:5px; height:0;
+          background:linear-gradient(180deg,#e3232a,#b81b21);
+          transition:height .35s ease;
+          border-radius:0 4px 4px 0;
+        }
+        .sp-card:hover .sp-bar{ height:100%; }
+        .sp-ic{
+          flex:none;
+          width:54px; height:54px;
+          display:grid; place-items:center;
+          border-radius:50%;
+          color:#fff; font-size:20px;
+          background:linear-gradient(135deg,#e3232a,#b81b21);
+          box-shadow:0 8px 18px rgba(227,35,42,.32);
+          transition:transform .35s ease;
+        }
+        .sp-card:hover .sp-ic{ transform:scale(1.08) rotate(6deg); }
+        .sp-title{
+          margin:0;
+          font-size:18px;
+          font-weight:700;
+          line-height:1.35;
+          color:#1b1f2a;
+        }
+        .sp-num{
+          position:absolute;
+          right:14px; top:2px;
+          font-size:60px;
+          font-weight:800;
+          line-height:1;
+          color:rgba(227,35,42,.07);
+          z-index:-1;
+          letter-spacing:-2px;
+        }
+      `}</style>
     </>
   );
 }

@@ -18,13 +18,13 @@ onway/
 cd backend
 npm install
 npm run seed      # admin user + sample gallery/team/blogs seed karta hai (ek hi baar)
-npm start         # http://localhost:5000 par chalega
+npm start         # http://localhost:5556 par chalega
 ```
 
-- **Admin Panel:** http://localhost:5000/admin
+- **Admin Panel:** http://localhost:5556/admin
 
-- **API base:** http://localhost:5000/api
-- **Health check:** http://localhost:5000/api/health
+- **API base:** http://localhost:5556/api
+- **Health check:** http://localhost:5556/api/health
 
 Database ek simple **JSON file** hai: `backend/db/data.json` (koi native DB compile
 nahi — kahin bhi bina headache ke chalega). Reset karna ho to file delete karke
@@ -36,7 +36,7 @@ PORT=5000
 JWT_SECRET=...            # production me strong random value daalo
 
 FRONTEND_ORIGIN=http://localhost:3000   # CORS (frontend ka URL)
-PUBLIC_BASE_URL=http://localhost:5000   # uploaded image URLs ke liye
+PUBLIC_BASE_URL=http://localhost:5556   # uploaded image URLs ke liye
 ```
 
 > Admin password badalna ho: `.env` me `ADMIN_PASSWORD` set karo, `data.json` delete
@@ -60,7 +60,7 @@ npm start
 
 ### Frontend config — `frontend/.env.local`
 ```
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=http://localhost:5556/api
 NEXT_PUBLIC_SITE_URL=https://www.onwayycargo.com
 ```
 - `NEXT_PUBLIC_API_URL` → backend ka API base. Live server par backend domain daalo.

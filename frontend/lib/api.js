@@ -1,7 +1,7 @@
 // Central API helper. Server components call these; on any failure they
 // return safe fallbacks so `next build` never crashes when the backend is down.
 
-export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5556/api';
 
 async function safeGet(path, fallback) {
   try {

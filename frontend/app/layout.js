@@ -35,7 +35,7 @@ export const metadata = {
     description: "Air freight, ocean freight, custom clearance, transportation & warehousing.",
   },
   robots: { index: true, follow: true },
-  // icons: { icon: "/assets/img/favicon.png" },
+  icons: { icon: "/assets/img/logo/onway-web-logo.webp" },
 };
 
 export const viewport = {

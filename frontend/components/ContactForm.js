@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api'
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5556/api'
 
 const SUBJECTS = ['Air Freight', 'Ocean Freight', 'Custom Clearance', 'Transportation', 'Warehousing', 'Other']
 

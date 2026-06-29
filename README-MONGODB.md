@@ -53,9 +53,9 @@ MONGODB_URI=mongodb://127.0.0.1:27017/onwayycargo
 cd backend
 npm install        # mongoose install hoga
 npm run seed       # admin + sample gallery/team/blogs Mongo me daalega (ek baar)
-npm start          # http://localhost:5000
+npm start          # http://localhost:5556
 ```
-- Admin panel: http://localhost:5000/admin  (login: `admin` / `admin123`)
+- Admin panel: http://localhost:5556/admin  (login: `admin` / `admin123`)
 - Agar Mongo band hoga to server clear error dega: `MongoDB connection failed: ...`
 
 ---
