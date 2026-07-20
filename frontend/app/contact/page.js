@@ -5,7 +5,7 @@ import { COMPANY } from '@/lib/content'
 
 export const metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Onwayy Cargo. Head office in Noida with branches in Maharashtra and Gujarat. Call +91-9711550985 or email info@onwayycargo.com.',
+  description: 'Get in touch with Onwayy Cargo. Head office in Noida with branches in Maharashtra and Gujarat. Call +91-9873952371 or email juhichopra@onwayycargo.com.',
   alternates: { canonical: '/contact' },
 }
 

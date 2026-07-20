@@ -73,8 +73,8 @@ export default function RootLayout({ children }) {
               name: "Onwayy Cargo Pvt. Ltd.",
               url: SITE_URL,
               logo: `${SITE_URL}/assets/img/logo/onway-web-logo.webp`,
-              telephone: "+91-9711550985",
-              email: "info@onwayycargo.com",
+              telephone: "+91-9873952371",
+              email: "juhichopra@onwayycargo.com",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Office No.5, First Floor, A-12 & A-13, Sector-16",

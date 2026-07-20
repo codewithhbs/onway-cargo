@@ -7,6 +7,7 @@ export default async function TeamHome() {
     if (!all || all.length === 0) return null
 
     const members = all.slice(0, 4) // home par limited
+    // console.log('TeamHome members:', members) // Debugging log
 
     return (
         <section className="team-home white-bg pt-120 pb-90">

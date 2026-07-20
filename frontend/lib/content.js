@@ -2,10 +2,10 @@
 
 export const COMPANY = {
   name: 'Onwayy Cargo',
-  phone: '+91-9711550985',
-  phoneTel: '+919711550985',
-  email: 'info@onwayycargo.com',
-  whatsapp: 'http://wa.me/+919711550985',
+  phone: '+91-9873952371',
+  phoneTel: '+919873952371',
+  email: 'juhichopra@onwayycargo.com',
+  whatsapp: 'http://wa.me/+919873952371',
   social: {
     facebook: 'https://www.facebook.com/onwayycargo',
     instagram: 'https://www.instagram.com/onwayycargo/',
@@ -15,26 +15,26 @@ export const COMPANY = {
     {
       label: 'Head Office',
       address: 'Office No.5, First Floor, A-12 & A-13, Sector-16 Noida, Gautam Budh Nagar, Uttar Pradesh - 201301',
-      phone: '9711550985',
-      email: 'info@onwayycargo.com',
+      phone: '9873952371',
+      email: 'juhichopra@onwayycargo.com',
     },
     {
       label: 'Maharashtra',
       address: 'Office No. 117, Hilton Centre, Plot-66, Sector 11, CBD Belapur, Navi Mumbai - 400614, India',
-      phone: '9711550985',
-      email: 'info@onwayycargo.com',
+      phone: '9873952371',
+      email: 'juhichopra@onwayycargo.com',
     },
     {
       label: 'Gujarat (Morbi)',
       address: 'Hemratna Chamber, Office No. 5, Ground Floor, National Highway 8/A, Near Trajpar Char Rasta, Morbi, Gujarat - 363642',
-      phone: '9711550985',
-      email: 'info@onwayycargo.com',
+      phone: '9873952371',
+      email: 'juhichopra@onwayycargo.com',
     },
     {
       label: 'Gujarat (Rajkot)',
       address: 'Office No. 406, Runway Heights, Ayodhya Chowk BRTS Bus Stop, 150 Feet Ring Road, Rajkot, Gujarat - 360006',
-      phone: '9711550985',
-      email: 'info@onwayycargo.com',
+      phone: '9873952371',
+      email: 'juhichopra@onwayycargo.com',
     },
   ],
 };

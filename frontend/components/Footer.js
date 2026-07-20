@@ -64,8 +64,8 @@ export default function Footer() {
                                 </div>
                                 <div className="footer-contact-info">
                                     <p className="mb-15"><i className="flaticon-pin"></i> Office No.5, First Floor, A-12 &amp; A-13, Sector-16 Noida, Gautam Budh Nagar, Uttar Pradesh - 201301</p>
-                                    <p className="mb-10"><i className="flaticon-envelope"></i> <a href="mailto:info@onwayycargo.com">info@onwayycargo.com</a></p>
-                                    <p className="mb-0"><i className="flaticon-telephone-call"></i> <a href="tel:+919711550985">+91-9711550985</a></p>
+                                    <p className="mb-10"><i className="flaticon-envelope"></i> <a href="mailto:juhichopra@onwayycargo.com">juhichopra@onwayycargo.com</a></p>
+                                    <p className="mb-0"><i className="flaticon-telephone-call"></i> <a href="tel:+919873952371">+91-9873952371</a></p>
                                 </div>
                             </div>
                         </div>

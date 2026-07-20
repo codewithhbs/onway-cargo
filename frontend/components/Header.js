@@ -23,7 +23,7 @@ export default function Header() {
                         </div>
                         <div className="col-xxl-2 col-xl-3 col-lg-3 col-sm-3">
                             <div className="header__top-3-btn t-right">
-                                <a href="http://wa.me/+919711550985" target="_blank" rel="noopener noreferrer" className="fill-btn fill-lg-btn clip-md-btn">Book Now</a>
+                                <a href="http://wa.me/+919873952371" target="_blank" rel="noopener noreferrer" className="fill-btn fill-lg-btn clip-md-btn">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export default function Header() {
                                             <i className="flaticon-telephone-call"></i>
                                         </div>
                                         <div className="header__bottom-3-text">
-                                            <h5><a href="tel:+919711550985">+91-9711550985</a></h5>
+                                            <h5><a href="tel:+919873952371">+91-9873952371</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@ export default function Header() {
                                     </div>
                                     <div className="sidebar__info-text">
                                         <span>Call us now</span>
-                                        <h5><a href="tel:+919711550985">+91-9711550985</a></h5>
+                                        <h5><a href="tel:+919873952371">+91-9873952371</a></h5>
                                     </div>
                                 </div>
                                 <div className="sidebar__info-item">
@@ -134,7 +134,7 @@ export default function Header() {
                                     </div>
                                     <div className="sidebar__info-text">
                                         <span>Email now</span>
-                                        <h5><a href="mailto:info@onwayycargo.com">info@onwayycargo.com</a></h5>
+                                        <h5><a href="mailto:juhichopra@onwayycargo.com">juhichopra@onwayycargo.com</a></h5>
                                     </div>
                                 </div>
                             </div>
